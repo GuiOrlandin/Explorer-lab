@@ -17,7 +17,7 @@ function SetCardType(type) {
 
 ccBgColor01.setAttribute("fill", colors[type][0])
 ccBgColor02.setAttribute("fill", colors[type][1])
-ccLogo.setAttribute("src", `./public/cc-${type}.svg`)
+ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
 globalThis.SetCardType = SetCardType
